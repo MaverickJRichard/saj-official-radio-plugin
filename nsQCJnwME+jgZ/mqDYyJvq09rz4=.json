@@ -1,0 +1,123 @@
+{
+    "pluginStatus": true,
+    "isPaid": true,
+    "communityName": "San Andreas Justice",
+    "features": {
+        "inGameInterface": true,
+        "rangeSimulation": true,
+        "emergencyHotline": true
+    },
+    "talkAroundRange": 1500,
+    "betaServerGroups": [""],
+    "dispatchServerGroups": [78512, 78497, 77757, 77758],
+    "dispatchAdvancedServerGroups": ["78355"],
+    "dispatchNameTags": [
+        "(P)",
+        "(S)",
+        "(T)",
+        "(SA)",
+        "(QA)",
+        "(EVAL)",
+        "[P]",
+        "[S]",
+        "[T]",
+        "[SA]",
+        "[QA]",
+        "[EVAL]"
+    ],
+    "civilianServerGroups": [78511, 78504, 78503, 78502],
+    "civChannels": [0],
+    "radioSystems": [25, 36],
+    "rtoChannels": [28, 38],
+    "radioChannels": [
+        {
+            "id": 1,
+            "name": "State Wide",
+            "soundName": "Ch_SWDispatch.wav",
+            "type": "LEO",
+            "coloredName": "[color=green]Statewide[/color]",
+            "talkEnforcement": true,
+            "talkAround": false,
+            "scannable": false,
+            "encrypted": false,
+            "permission": 1
+        },
+        {
+            "id": 2,
+            "name": "Tac 1",
+            "soundName": "Ch_Tac1.wav",
+            "type": "LEO",
+            "coloredName": "[color=cyan]County[/color]",
+            "talkEnforcement": true,
+            "talkAround": false,
+            "scannable": false,
+            "encrypted": false,
+            "permission": 1
+        },
+        {
+            "id": 3,
+            "name": "Tac 2",
+            "soundName": "Ch_Tac2.wav",
+            "type": "LEO",
+            "coloredName": "[color=cyan]City[/color]",
+            "talkEnforcement": true,
+            "talkAround": false,
+            "scannable": false,
+            "encrypted": true,
+            "permission": 1
+        },
+        {
+            "id": 4,
+            "name": "Fire Ops",
+            "soundName": "Ch_FireOps.wav",
+            "type": "LEO",
+            "coloredName": "[color=red]10-1[/color]",
+            "talkEnforcement": true,
+            "talkAround": false,
+            "scannable": false,
+            "encrypted": true,
+            "permission": 1
+        }
+    ],
+    "time_settings": {
+        "emergencyOverridePeriod": 10,
+        "emergencyCooldown": 30,
+        "emergencyOtherCooldown": 20,
+        "dispatchToneCooldown": 15,
+        "radioStunCooldown": 5,
+        "radioPingCooldown": 10,
+        "911Cooldown": 30,
+        "commandStunPeriod": 300,
+        "toneWaitTalkPeriod": 5
+    },
+    "permissions": {
+        "permBasic": {
+            "serverGroupList": ["78528"],
+            "clientUidList": [""]
+        },
+        "permExtra": {
+            "serverGroupList": [""],
+            "clientUidList": [""]
+        },
+        "permSit": {
+            "serverGroupList": ["78529"],
+            "clientUidList": [""]
+        },
+        "permStaff": {
+            "serverGroupList": ["78531, 78530"],
+            "clientUidList": [""]
+        },
+        "permSenior": {
+            "serverGroupList": ["78532"],
+            "clientUidList": [""]
+        },
+        "permAdmin": {
+            "serverGroupList": ["78534, 78533"],
+            "clientUidList": [""]
+        },
+        "permSuper": {
+            "serverGroupList": ["78536", "78535"],
+            "clientUidList": [""]
+        }
+    }
+}
