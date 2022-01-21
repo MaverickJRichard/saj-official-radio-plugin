@@ -1,0 +1,148 @@
+{
+    "pluginStatus": true,
+    "isPaid": true,
+    "communityName": "San Andreas Justice",
+    "betaCommunity": false,
+    "features": {
+        "inGameInterface": false,
+        "rangeSimulation": true,
+        "emergencyHotline": true
+    },
+    "talkAroundRange": 1500,
+    "betaServerGroups": ["78065"],
+    "dispatchServerGroups": ["78497", "78512"],
+    "dispatchAdvancedServerGroups": ["78355", "78356", "78536"],
+    "dispatchNameTags": [
+        "(P)",
+        "(S)",
+        "(T)",
+        "(FIRE)",
+        "(QA)",
+        "(EVAL)",
+        "[P]",
+        "[S]",
+        "[T]",
+        "[FIRE]",
+        "[QA]",
+        "[EVAL]"
+    ],
+    "civilianServerGroups": ["78502", "78503", "78504", "78511", "78536"],
+    "civChannels": [95394, 95395, 95396, 95442, 95443, 95444],
+    "radioSystems": [95389, 95437],
+    "rtoChannels": [95389, 95437],
+    "radioChannels": [
+        {
+            "id": 1,
+            "name": "Patrol Ops",
+            "soundName": "",
+            "type": "LEO",
+            "coloredName": "[color=green]Patrol Ops[/color]",
+            "talkEnforcement": true,
+            "talkAround": false,
+            "scannable": true,
+            "encrypted": false,
+            "permission": 1
+        },
+        {
+            "id": 2,
+            "name": "Fire Ops",
+            "soundName": "",
+            "type": "LEO",
+            "coloredName": "[color=yellow]Fire Ops[/color]",
+            "talkEnforcement": true,
+            "talkAround": false,
+            "scannable": true,
+            "encrypted": false,
+            "permission": 1
+        },
+        {
+            "id": 3,
+            "name": "Tac 1",
+            "soundName": "",
+            "type": "LEO",
+            "coloredName": "[color=purple]Tac 1[/color]",
+            "talkEnforcement": true,
+            "talkAround": false,
+            "scannable": true,
+            "encrypted": true,
+            "permission": 1
+        },
+        {
+            "id": 4,
+            "name": "Tac 2",
+            "soundName": "",
+            "type": "LEO",
+            "coloredName": "[color=purple]Tac 2[/color]",
+            "talkEnforcement": true,
+            "talkAround": false,
+            "scannable": true,
+            "encrypted": true,
+            "permission": 1
+        },
+        {
+            "id": 5,
+            "name": "Car/Car",
+            "soundName": "",
+            "type": "LEO",
+            "coloredName": "[color=grey]Car/Car[/color]",
+            "talkEnforcement": true,
+            "talkAround": true,
+            "scannable": true,
+            "encrypted": false,
+            "permission": 1
+        },
+        {
+            "id": 6,
+            "name": "Private 1",
+            "soundName": "",
+            "type": "LEO",
+            "coloredName": "[color=red]Private 1[/color]",
+            "talkEnforcement": true,
+            "talkAround": false,
+            "scannable": false,
+            "encrypted": true,
+            "permission": 1
+        }
+    ],
+    "time_settings": {
+        "emergencyOverridePeriod": 10,
+        "emergencyCooldown": 30,
+        "emergencyOtherCooldown": 20,
+        "dispatchToneCooldown": 15,
+        "radioStunCooldown": 5,
+        "radioPingCooldown": 10,
+        "911Cooldown": 30,
+        "commandStunPeriod": 300,
+        "toneWaitTalkPeriod": 5
+    },
+    "permissions": {
+        "permBasic": {
+            "serverGroupList": [],
+            "clientUidList": [""]
+        },
+        "permExtra": {
+            "serverGroupList": [""],
+            "clientUidList": [""]
+        },
+        "permSit": {
+            "serverGroupList": ["78529"],
+            "clientUidList": [""]
+        },
+        "permStaff": {
+            "serverGroupList": ["78530, 78531"],
+            "clientUidList": [""]
+        },
+        "permSenior": {
+            "serverGroupList": ["78532"],
+            "clientUidList": [""]
+        },
+        "permAdmin": {
+            "serverGroupList": ["78533", "78534", "78535"],
+            "clientUidList": [""]
+        },
+        "permSuper": {
+            "serverGroupList": ["78536"],
+            "clientUidList": [""]
+        }
+    }
+}
