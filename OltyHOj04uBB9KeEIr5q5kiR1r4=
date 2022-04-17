@@ -1,17 +1,17 @@
 {
     "pluginStatus": true,
     "isPaid": true,
-    "communityName": "San Andreas Justice Roleplay Community",
-    "betaCommunity": true,
+    "communityName": "",
+    "betaCommunity": false,
     "features": {
         "inGameInterface": true,
         "rangeSimulation": true,
         "emergencyHotline": true
     },
     "talkAroundRange": 1500,
-    "betaServerGroups": ["83399"],
-    "dispatchServerGroups": ["83399"],
-    "dispatchAdvancedServerGroups": ["83399"],
+    "betaServerGroups": [""],
+    "dispatchServerGroups": [""],
+    "dispatchAdvancedServerGroups": [],
     "dispatchNameTags": [
         "(P)",
         "(S)",
@@ -26,10 +26,10 @@
         "[QA]",
         "[EVAL]"
     ],
-    "civilianServerGroups": ["83399"],
-    "civChannels": ["99246"],
-    "radioSystems": ["83399"],
-    "rtoChannels": ["99244"],
+    "civilianServerGroups": [""],
+    "civChannels": [0],
+    "radioSystems": [],
+    "rtoChannels": [],
     "radioChannels": [
         {
             "id": 1,
@@ -147,7 +147,7 @@
             "serverGroupList": [""]
         },
         "permSuper": {
-            "serverGroupList": ["83399"]
+            "serverGroupList": ["83541"]
         }
     }
 }
