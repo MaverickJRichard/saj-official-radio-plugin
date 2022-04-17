@@ -1,17 +1,17 @@
 {
     "pluginStatus": true,
     "isPaid": true,
-    "communityName": "San Andreas Justice",
+    "communityName": "San Andreas Justice Roleplay Community",
     "betaCommunity": false,
     "features": {
-        "inGameInterface": false,
+        "inGameInterface": true,
         "rangeSimulation": true,
         "emergencyHotline": true
     },
     "talkAroundRange": 1500,
-    "betaServerGroups": ["78065"],
-    "dispatchServerGroups": ["78497", "78512"],
-    "dispatchAdvancedServerGroups": ["78355", "78356", "78536"],
+    "betaServerGroups": ["83541"],
+    "dispatchServerGroups": ["83541", "83541"],
+    "dispatchAdvancedServerGroups": ["83541", "83541", "83541"],
     "dispatchNameTags": [
         "(P)",
         "(S)",
@@ -26,10 +26,10 @@
         "[QA]",
         "[EVAL]"
     ],
-    "civilianServerGroups": ["78502", "78503", "78504", "78511", "78536"],
-    "civChannels": [95394, 95395, 95396, 95442, 95443, 95444],
-    "radioSystems": [95389, 95437],
-    "rtoChannels": [95389, 95437],
+    "civilianServerGroups": ["83541", "78503", "78504", "78511", "78536"],
+    "civChannels": [99256],
+    "radioSystems": [99253, 95437],
+    "rtoChannels": [99255],
     "radioChannels": [
         {
             "id": 1,
@@ -141,7 +141,7 @@
             "clientUidList": [""]
         },
         "permSuper": {
-            "serverGroupList": ["78536"],
+            "serverGroupList": ["83541"],
             "clientUidList": [""]
         }
     }
